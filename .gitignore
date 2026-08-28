@@ -1,0 +1,18 @@
+# --- Code Composer Studio / Eclipse build output ---
+Proyecto/Debug/
+Proyecto/Release/
+*.obj
+*.d
+*.d_raw
+*.map
+*.out
+*.hex
+*.lst
+*.rl
+*.absobj
+
+# --- Eclipse / CCS workspace metadata (not part of the project) ---
+.metadata/
+RemoteSystemsTempFiles/
+.DS_Store
+Thumbs.db
