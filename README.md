@@ -6,7 +6,7 @@ C for the **Texas Instruments MSP430G2553** microcontroller and the **Educationa
 University project for the *Microcontrollers* course — Bachelor's Degree in Electronic, Robotics
 and Mechatronics Engineering, **Universidad de Sevilla**.
 
-**Authors:** Pablo Martín Sierra · Jaime Esparragoso Vides
+**Author:** Jaime Esparragoso Vides
 **Date:** January 2026
 
 📄 Full technical report: [`docs/Proyecto_MSP430_Simon_Says_EN.pdf`](docs/Proyecto_MSP430_Simon_Says_EN.pdf)
@@ -62,7 +62,9 @@ The main loop keeps the CPU in low‑power mode `LPM0` and only wakes on interru
 │   ├── grlib.h / grlib_MKII.lib            TI Graphics Library (prebuilt for the MkII)
 │   ├── lnk_msp430g2553.cmd                 linker command file
 │   └── .ccsproject / .cproject / .project  CCS project metadata
-├── docs/            Technical report (PDF)
+├── docs/
+│   ├── Proyecto_MSP430_Simon_Says_EN.pdf   compiled technical report
+│   └── report/                             LaTeX sources (report.tex, main.c, img)
 └── media/           Demo videos (added later)
 ```
 
@@ -100,7 +102,7 @@ Demo videos of the game running on hardware will be added to [`media/`](media/) 
 
 ## License
 
-Our own code (`main.c`) is released under the [MIT License](LICENSE).
+The project code (`main.c`) is released under the [MIT License](LICENSE).
 
 The LCD driver files (`Crystalfontz128x128_ST7735.*`, `HAL_MSP430G2_*`, `UARTstdio.*`),
 `grlib.h` and `grlib_MKII.lib` are part of the **TI Graphics Library** and remain

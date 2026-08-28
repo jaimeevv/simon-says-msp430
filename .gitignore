@@ -11,6 +11,14 @@ Proyecto/Release/
 *.rl
 *.absobj
 
+# --- LaTeX build artifacts (docs/report) ---
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
 # --- Eclipse / CCS workspace metadata (not part of the project) ---
 .metadata/
 RemoteSystemsTempFiles/
