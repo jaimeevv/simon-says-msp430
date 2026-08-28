@@ -9,7 +9,7 @@ and Mechatronics Engineering, **Universidad de Sevilla**.
 **Author:** Jaime Esparragoso Vides
 **Date:** January 2026
 
-📄 Full technical report: [`docs/Proyecto_MSP430_Simon_Says_EN.pdf`](docs/Proyecto_MSP430_Simon_Says_EN.pdf)
+📄 Full technical report: [`docs/simon-says-msp430.pdf`](docs/simon-says-msp430.pdf)
 
 ---
 
@@ -63,9 +63,9 @@ The main loop keeps the CPU in low‑power mode `LPM0` and only wakes on interru
 │   ├── lnk_msp430g2553.cmd                 linker command file
 │   └── .ccsproject / .cproject / .project  CCS project metadata
 ├── docs/
-│   ├── Proyecto_MSP430_Simon_Says_EN.pdf   compiled technical report
-│   └── report/                             LaTeX sources (report.tex, main.c, img)
-└── media/           Demo videos (added later)
+│   ├── simon-says-msp430.pdf   compiled technical report
+│   └── report/                 LaTeX sources (report.tex, main.c, img)
+└── media/           Demo videos (Git LFS)
 ```
 
 ## Build & flash
@@ -98,7 +98,20 @@ project builds straight after import with no extra downloads. Build artifacts li
 
 ## Media
 
-Demo videos of the game running on hardware will be added to [`media/`](media/) later.
+Videos of the game running on the real board (stored with Git LFS, in [`media/`](media/)):
+
+**Normal gameplay**
+
+https://github.com/jaimeevv/simon-says-msp430/raw/main/media/01-normal-gameplay.mp4
+
+**Colour-blind / symbol mode**
+
+https://github.com/jaimeevv/simon-says-msp430/raw/main/media/02-colorblind-mode.mp4
+
+**Final victory + double-speed hard mode** — the 32 rounds were skipped with the S1 shortcut
+(`boton1`), which jumps straight to `VICTORIA_FINAL`, since clearing all 32 by hand is impractical.
+
+https://github.com/jaimeevv/simon-says-msp430/raw/main/media/03-victory-double-speed.mp4
 
 ## License
 

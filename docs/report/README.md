@@ -1,6 +1,6 @@
 # Technical report — LaTeX sources
 
-Sources for [`../Proyecto_MSP430_Simon_Says_EN.pdf`](../Proyecto_MSP430_Simon_Says_EN.pdf).
+Sources for [`../simon-says-msp430.pdf`](../simon-says-msp430.pdf).
 
 | File | Purpose |
 | --- | --- |
